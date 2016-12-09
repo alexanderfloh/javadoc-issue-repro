@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+javadoc {
+  options {
+    encoding = 'UTF-8'
+    charSet = 'UTF-8'
+    docEncoding = 'UTF-8'
+    locale = "ja"
+    windowTitle = "リファレンス"
+    docTitle = "<h1>リファレンス</h1>"
+  }
+}
